@@ -1,0 +1,879 @@
+{
+  "id": "b0f40022-77b3-42be-a3ed-79a21971bebe",
+  "version": "2.0",
+  "name": "TestSeleniumIDEBai02",
+  "url": "http://127.0.0.1:5500/Bai02.html",
+  "tests": [{
+    "id": "e4097e98-9561-4d4c-97d6-f3789741a678",
+    "name": "TestIP01",
+    "commands": [{
+      "id": "66221e08-a971-4441-a52b-7c885335dfef",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed7d975e-b237-4a4a-8b60-d93dfaa0b81a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd21b257-9b10-4c3d-8ed6-d0c3acdf312c",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "300a60a9-9080-40cd-8355-5c17b0260dad",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-5"
+    }, {
+      "id": "8eeadd96-57f3-4dbc-82e0-7784dc93a287",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "539c868e-9058-47c5-b7c0-def77dba0ea9",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a023665-a821-49e5-9ad4-cc094981f1de",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "111111111111111 111111111111100 000111111111111 111111111111111 111111"
+    }, {
+      "id": "e65e0bc3-3b51-4b45-add6-a16ed06b9ccf",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf08983e-26d4-4ea6-83d3-c26068f0a29f",
+      "comment": "",
+      "command": "click",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//div[@id='error']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi không được quá 64 ký tự"
+    }, {
+      "id": "3d5d88c3-6456-4edc-844f-9ff635a2508e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5 > .row .invalid-feedback",
+      "targets": [
+        ["css=.mb-5 > .row .invalid-feedback", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi được nhập phải là số nguyên dương"
+    }]
+  }, {
+    "id": "86a0ca8b-d00c-4d74-ab3d-f999532a3c34",
+    "name": "TestVP01",
+    "commands": [{
+      "id": "f5bf8778-1add-47d3-92bd-77fea78c044e",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc0a3b8d-6858-4294-91a9-6acff09850e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80f088e6-a886-4158-80ae-6d631c94be4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e4730f3-7ae6-423e-b710-c98c3b8be651",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "17"
+    }, {
+      "id": "2aaa258f-04a5-475f-a120-932c24822c3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c69ddf-b028-42bc-84d9-1d3d3c6affe5",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caf310df-2caa-4f6a-862c-3cb54d171b55",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "10001"
+    }, {
+      "id": "432571c3-e34d-46c2-9d68-11ae0ebf9b13",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "734deb48-595d-447f-b4a0-a0a11791129c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=so-decimal2",
+      "targets": [
+        ["id=so-decimal2", "id"],
+        ["css=#so-decimal2", "css:finder"],
+        ["xpath=//input[@id='so-decimal2']", "xpath:attributes"],
+        ["xpath=//form[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "17"
+    }, {
+      "id": "3089e8d8-e12f-47fc-a2f4-0c42c37f0404",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=so-binary1",
+      "targets": [
+        ["id=so-binary1", "id"],
+        ["css=#so-binary1", "css:finder"],
+        ["xpath=//input[@id='so-binary1']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "10001"
+    }]
+  }, {
+    "id": "80b4fd3c-f0e6-481a-9e55-e3b94a9c100e",
+    "name": "TestIP02",
+    "commands": [{
+      "id": "cc1edbe2-fc45-451b-98bb-e976d475fd3b",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8c7c47b-88ac-48b3-9dde-48e5b38ce316",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02754a41-5438-460a-8155-612f21251f56",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d6c4269-2657-4fb8-b4b3-623f1ea91351",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5.2"
+    }, {
+      "id": "e481dd23-25be-4b2e-b702-9d18ad3270ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d085b8c-4956-49a4-96e6-9676c9f3b270",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd187b4c-efc0-4d35-978f-4a3e7c2783a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1000021"
+    }, {
+      "id": "843c1d5b-976e-4c13-bade-5d06fb843d92",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ebfa40f-06ce-41e3-b12a-da1f9208b41b",
+      "comment": "",
+      "command": "click",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//div[@id='error']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi được nhập phải là chuỗi nhị phân"
+    }, {
+      "id": "2d942e83-26fa-4516-ba24-ece4a23acc39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5 > .row .invalid-feedback",
+      "targets": [
+        ["css=.mb-5 > .row .invalid-feedback", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi được nhập phải là số nguyên"
+    }]
+  }, {
+    "id": "37484165-c151-418b-bea0-19d849950583",
+    "name": "TestIP03",
+    "commands": [{
+      "id": "b5291074-6d06-4b2f-8218-1e38f4f359ac",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31900e46-5256-408e-a9a7-f8c176ee394b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89515d90-5de7-427d-b391-dd010a7fe2e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc946766-6df8-4455-a43d-696b7bd09c55",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ac"
+    }, {
+      "id": "9ce2d4e1-d3d4-4b1b-b92f-e41bf1d8f623",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88f03363-b4b0-4064-b413-0d17d58e9b6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c1c3e6a-08d1-471d-8f5d-c3a18a7e5980",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "100a1"
+    }, {
+      "id": "dd02dfd0-6395-42df-9771-ec6a8344cfef",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dd37ac8-7d54-452b-85e9-ce093269e0a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//div[@id='error']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi được nhập phải là chuỗi nhị phân"
+    }, {
+      "id": "d7c811ea-8942-4ecc-b654-71d490581a9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5 > .row .invalid-feedback",
+      "targets": [
+        ["css=.mb-5 > .row .invalid-feedback", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi được nhập phải là số"
+    }]
+  }, {
+    "id": "29a1a5a1-f1d2-42d5-b063-c451d26f5715",
+    "name": "TestIP04",
+    "commands": [{
+      "id": "c73daa9a-7bff-49b8-bcec-7f83f9450e43",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28da992a-e4ad-443c-9cfe-0cf1bdac2679",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81171814-9852-4f5e-9606-cc31d74fe959",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08457290-5f22-49c2-bf90-91ed7619bbb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe1ac7f-a904-4bb8-9cfd-4b5b7aa6144d",
+      "comment": "",
+      "command": "click",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//div[@id='error']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi không được để trống"
+    }, {
+      "id": "28fdd2b9-f963-4ff0-8ef3-d6b04332d7ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5 > .row .invalid-feedback",
+      "targets": [
+        ["css=.mb-5 > .row .invalid-feedback", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi không được để trống"
+    }]
+  }, {
+    "id": "4f365a3c-eacb-467d-bcf9-05d47d3bd991",
+    "name": "TestVB01.1",
+    "commands": [{
+      "id": "fb2406df-e38d-4520-a410-ca79476dbde8",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64d5648e-91bb-481b-8f37-80cf787550ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "096185fa-6b6d-41bf-9db8-935c03ebfd8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50f138ec-e1ec-4066-a562-3c4bd61266f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "9e28785a-0ecf-4836-a2f3-d895dee93987",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d203072-56c7-445f-bf84-c336d010e514",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "034e7a4b-223c-4a3a-b344-389e1fcf6ca6",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "72345e70-bfa2-4c28-a089-0a4298cea779",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c6baa2-8dad-4044-95e9-1d701daa61bf",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=so-decimal2",
+      "targets": [
+        ["id=so-decimal2", "id"],
+        ["css=#so-decimal2", "css:finder"],
+        ["xpath=//input[@id='so-decimal2']", "xpath:attributes"],
+        ["xpath=//form[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b69f2815-785a-408d-80b7-69a7af08820e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=so-binary1",
+      "targets": [
+        ["id=so-binary1", "id"],
+        ["css=#so-binary1", "css:finder"],
+        ["xpath=//input[@id='so-binary1']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }]
+  }, {
+    "id": "649ce48e-2d55-4e0e-b09a-d0387f7dd11a",
+    "name": "TestVB01.2",
+    "commands": [{
+      "id": "4de26c2e-8f1f-4694-8266-be049788dbb9",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f782e962-b13a-4696-b952-765937b85f83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc1e2270-1da6-4aa7-b846-f3b43be3d4fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e61f1a-0d07-443c-aed7-0ee59012b7c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "e15acd1e-aeaa-4a98-9f17-6634ae31d1a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4efee10a-0c6e-40fd-be9d-1982b4e3e1d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd37f10f-b97a-421c-8732-a9f61f6a52b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "111111111111111111111111111100000111111111111111111111111111111"
+    }, {
+      "id": "682c876f-ca9f-4951-a094-5f057df86f95",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20bcd333-8cde-4762-bbd5-be13746f2668",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=so-decimal2",
+      "targets": [
+        ["id=so-decimal2", "id"],
+        ["css=#so-decimal2", "css:finder"],
+        ["xpath=//input[@id='so-decimal2']", "xpath:attributes"],
+        ["xpath=//form[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "9223372003568779263"
+    }, {
+      "id": "12a3febe-af18-4781-ade1-bf966bab4399",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=so-binary1",
+      "targets": [
+        ["id=so-binary1", "id"],
+        ["css=#so-binary1", "css:finder"],
+        ["xpath=//input[@id='so-binary1']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }]
+  }, {
+    "id": "5cca4209-b22b-4af6-9a23-17bf09cfd266",
+    "name": "TestIB01",
+    "commands": [{
+      "id": "e40cf945-8e2f-4098-839e-428bbdcbbd6a",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai02.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f45c158-5a2a-480a-b1d6-648199d23d4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b19b199-99b6-4b67-8cbd-f4acad2e52d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20135978-174d-4fb2-98b0-4327dfe00903",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-decimal1",
+      "targets": [
+        ["id=so-decimal1", "id"],
+        ["css=#so-decimal1", "css:finder"],
+        ["xpath=//input[@id='so-decimal1']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "de3ae298-e121-4c56-b2c2-e7b51310c634",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDecToBin",
+      "targets": [
+        ["id=btnDecToBin", "id"],
+        ["css=#btnDecToBin", "css:finder"],
+        ["xpath=//button[@id='btnDecToBin']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Convert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58cfbc82-bd7d-4f37-ac38-916454522e2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6306e0cf-9bac-4c57-a440-0711f9c2568a",
+      "comment": "",
+      "command": "type",
+      "target": "id=so-binary2",
+      "targets": [
+        ["id=so-binary2", "id"],
+        ["css=#so-binary2", "css:finder"],
+        ["xpath=//input[@id='so-binary2']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1111111111111111111111111111000001111111111111111111111111111111"
+    }, {
+      "id": "8ed7b3f3-d298-49c7-beda-cd508d384d4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnBinToDec",
+      "targets": [
+        ["id=btnBinToDec", "id"],
+        ["css=#btnBinToDec", "css:finder"],
+        ["xpath=//button[@id='btnBinToDec']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095e4589-b40b-4bf9-bc7a-64e8d26275d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//div[@id='error']", "xpath:attributes"],
+        ["xpath=//form[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi không được quá 64 ký tự"
+    }, {
+      "id": "e603b993-7c5a-4a5c-b5f0-5cccc8f91b5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-5 > .row .invalid-feedback",
+      "targets": [
+        ["css=.mb-5 > .row .invalid-feedback", "css:finder"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Chuỗi được nhập phải là số nguyên dương"
+    }]
+  }],
+  "suites": [{
+    "id": "c78c5956-3894-4bc5-a6c1-4d2f30e1d007",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4097e98-9561-4d4c-97d6-f3789741a678"]
+  }],
+  "urls": ["http://127.0.0.1:5500/Bai02.html"],
+  "plugins": []
+}

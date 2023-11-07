@@ -1,0 +1,464 @@
+{
+  "id": "242631c8-428a-4e14-a0a7-7eb0102a8b01",
+  "version": "2.0",
+  "name": "TestSeleniumIDEBai03",
+  "url": "http://127.0.0.1:5500/Bai03.html",
+  "tests": [{
+    "id": "67384f4c-7557-423a-aca7-1ee48cf0b111",
+    "name": "TestVP01",
+    "commands": [{
+      "id": "5de280ce-def1-4bf6-b8e9-d5549f3e58a1",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai03.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "323559e8-c299-4fdd-a3b1-7919a3ef1c27",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "848x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a7f25d6-9495-4eb7-9895-11fe95fda369",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2e4913-6ee1-40df-94a2-d0b58d5b4a76",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nguyễn Huỳnh Nam"
+    }, {
+      "id": "c0b232bf-3a47-43ee-848b-e02ad6ea83a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b29ce9-f6f0-46aa-a3e0-cdf366eee6ee",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Nam"
+    }, {
+      "id": "3ae3217e-b1e2-42d2-a8ab-adae776c88ac",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=middle-name",
+      "targets": [
+        ["id=middle-name", "id"],
+        ["css=#middle-name", "css:finder"],
+        ["xpath=//input[@id='middle-name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Huỳnh"
+    }, {
+      "id": "1e06e982-f512-4fd8-b421-3b96f584352c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn"
+    }]
+  }, {
+    "id": "3f8b7aab-a09f-43df-93ff-b734e6007eaa",
+    "name": "TestIP01",
+    "commands": [{
+      "id": "70fa7c85-b7d8-48ad-9aef-b441c8ffcbdf",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai03.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "616c57a1-8b1c-446a-b8d7-536ce25c46b5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ee0d9cd-7e09-4412-b1eb-3f64e70273ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09a143a8-11b7-4779-afef-536ae990c921",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nguyễn Huỳnh Nam"
+    }, {
+      "id": "0d947b3c-c062-46d6-979c-8e0005298efb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7077ac50-33dd-4c2f-908c-7332a4401f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Họ tên phải bắt đầu bằng ký tự hoa và theo sao là ký tự thường"
+    }]
+  }, {
+    "id": "48ce0033-2362-46db-9926-468e453c620c",
+    "name": "TestIP02",
+    "commands": [{
+      "id": "68bd950d-5140-4239-8caa-94d11085c733",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai03.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5e665a5-a7f9-4b4b-91a6-44bebaba84e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "affd6618-8847-4d1e-a461-5b34fbce1e56",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89e47247-872c-41e3-9b91-07b4d87775f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nguyễn HuỳNh Nam"
+    }, {
+      "id": "4569ea6d-3cfa-4f5b-ad5c-4a4075cebf2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4832e3bc-1b8a-43f7-a9e0-6ad34ea7935a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Họ tên phải bắt đầu bằng ký tự hoa và theo sao là ký tự thường"
+    }]
+  }, {
+    "id": "2dff10d2-380a-4475-8c04-124a2306c377",
+    "name": "TestIP03",
+    "commands": [{
+      "id": "5dab1de2-af6d-4cfd-a2ff-b293c339f323",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai03.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccf520bf-f04f-42fc-b4ec-87c144127ac9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "877fb011-a814-4957-81ad-b4bc2e095fbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e36d42-c5b9-4a29-961c-229259da78ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nguyễn Huỳnh# Nam"
+    }, {
+      "id": "886e46ce-19c1-4d7f-a570-fb7dfa3189d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8aa2a3d-996f-4e3e-a726-3dc65deb3957",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Họ tên chỉ được chứa các ký tự chữ cái và khoảng trắng"
+    }]
+  }, {
+    "id": "750bcc3d-2060-4add-9228-b3a1437061c1",
+    "name": "TestVB01",
+    "commands": [{
+      "id": "c59352e5-40f3-4ef6-99fb-8c9455dc740f",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai03.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d434b81-5bb7-47d2-8258-3570740037e9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbece531-0b29-45dc-aeb2-9883b5f415e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f51e39e2-0d62-479c-ac0d-02114ddcbb40",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nguyễn Huỳnh"
+    }, {
+      "id": "27448366-b170-43b1-bef6-0dda153e2d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6bf3d57-02bb-49fa-893c-7f4375407ffb",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=last-name",
+      "targets": [
+        ["id=last-name", "id"],
+        ["css=#last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Huỳnh"
+    }, {
+      "id": "17fa1412-8994-437f-be09-03908decb46b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=middle-name",
+      "targets": [
+        ["id=middle-name", "id"],
+        ["css=#middle-name", "css:finder"],
+        ["xpath=//input[@id='middle-name']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81db3ae4-e8b2-4f77-b742-5cffbac8da4b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=first-name",
+      "targets": [
+        ["id=first-name", "id"],
+        ["css=#first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn "
+    }]
+  }, {
+    "id": "f817e3f0-2c5d-4ef2-8119-30c437eabf42",
+    "name": "TestIB01",
+    "commands": [{
+      "id": "a1cf8a9e-4934-44ad-bdc7-2ce6483a0b0c",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai03.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30022665-6ace-43d9-bf7c-891cebf9b57e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00e86551-e6c2-46ce-b1e8-cde9aee24708",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b9935ed-743e-4944-a981-f530a63a2908",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nguyễn"
+    }, {
+      "id": "032a9a54-d6af-4cf1-b567-fb73af8b081c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3 > .col-md-3:nth-child(3)",
+      "targets": [
+        ["css=.mb-3 > .col-md-3:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"],
+        ["xpath=//div[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b7e466b-039e-4516-a72d-94faa09271eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tách họ tên')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c6005f-fe67-41c6-bde0-9645e0ef6ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Họ tên phải có ít nhất 2 từ"
+    }]
+  }],
+  "suites": [{
+    "id": "d854bcc2-f365-4473-b77a-e16c13e2f3b6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5500/Bai03.html"],
+  "plugins": []
+}

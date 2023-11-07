@@ -1,0 +1,317 @@
+{
+  "id": "2630fb6e-f0c3-4911-8276-96b70981404d",
+  "version": "2.0",
+  "name": "TestSeleniumIDEBai04",
+  "url": "http://127.0.0.1:5500/Bai04.html",
+  "tests": [{
+    "id": "8015874d-b60d-497c-b88f-a3e78e760b87",
+    "name": "TestVP01",
+    "commands": [{
+      "id": "d28932ae-8e71-4699-afad-1c596352346e",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai04.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0349a80-9c12-464c-9fae-2cf20e43856b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49c04136-89d1-41a1-814d-bcc9515b5695",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=result",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//input[@id='result']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "2 3 5 7 8"
+    }, {
+      "id": "d02b2ec1-6424-404c-b0fe-913383b6a8ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f462fb7e-187a-4649-affa-333ca9de53e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5 7 3 8 2"
+    }, {
+      "id": "0dffbcc2-f058-4b92-8feb-1552478d4a19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sắp mảng tăng dần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "934df47f-06c0-48ea-83df-f4d7e18d3f5f",
+    "name": "TestIP01",
+    "commands": [{
+      "id": "71e2d42a-e870-4500-bbec-36f59389899c",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai04.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1daf441c-ef54-4bd4-8a4f-0c377bdfa369",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f643b98e-9e8f-4fce-92c2-346066748374",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32610086-d258-4cf8-8414-21b01a57ded0",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5 7 3.3 8 2"
+    }, {
+      "id": "f6dbcec2-4981-4e71-9bdd-a8db33cc88f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sắp mảng tăng dần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b500dcb-2a06-4c43-9c90-bd4754a207e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Các phẩn tử của mảng phải là số nguyên"
+    }]
+  }, {
+    "id": "7b581ea9-87aa-4f63-b233-1911e72502e3",
+    "name": "TestIP02",
+    "commands": [{
+      "id": "d05e356f-04fb-4e79-9bd1-132fbe7e2d81",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai04.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b8effdc-8239-4c9e-a1ad-010cb9f62e17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afbb64c1-3eb7-4f85-b366-e0ea8960893a",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f304819c-862d-43af-ac1d-86832cbaa31b",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5 7 A 8 2"
+    }, {
+      "id": "1f7da99c-c990-4c3e-bb24-de5a7e0737e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sắp mảng tăng dần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec3d82e4-cf3c-4dd0-8bc2-80335ea60fcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Các phẩn tử của mảng phải là số"
+    }]
+  }, {
+    "id": "a2d6b47b-a52f-4668-b686-479fdf733879",
+    "name": "TestVB01",
+    "commands": [{
+      "id": "6bcf2d61-6ee8-4a4e-aa2c-22439897d134",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai04.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15bdfe53-60f1-456a-97f4-a2f8bb3ff5cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb406b1a-7beb-41a4-a4ce-89068f8bbb86",
+      "comment": "",
+      "command": "click",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "203c9c7e-a54f-4125-a450-a9dfeeb40792",
+      "comment": "",
+      "command": "type",
+      "target": "id=full-name",
+      "targets": [
+        ["id=full-name", "id"],
+        ["css=#full-name", "css:finder"],
+        ["xpath=//input[@id='full-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "eada352b-2322-46de-b4b8-5ea88e1acc93",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=result",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//input[@id='result']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "e987f29a-901d-481f-b904-e71f9ba3ba57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sắp mảng tăng dần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "abb9a836-5f26-49c2-97ea-e6c1195f2413",
+    "name": "TestIB01",
+    "commands": [{
+      "id": "76a67272-9855-4c39-853e-cde052441c93",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5500/Bai04.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11f90a10-9f87-4e11-a978-94210f0737cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84851814-70c0-4e5f-a962-f8a8b0a5582c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sắp mảng tăng dần')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e2a343-b84b-499d-b335-1a2a664362a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.invalid-feedback",
+      "targets": [
+        ["css=.invalid-feedback", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Mảng không được để trống"
+    }]
+  }],
+  "suites": [{
+    "id": "2e9b9447-0a1f-4c18-a69d-a10b79285ad1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5500/Bai04.html"],
+  "plugins": []
+}
